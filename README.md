@@ -11,7 +11,7 @@ github : https://antonygeronimo.github.io/docusaurus/
 cpanel : https://901185434.senati.chat.pe/docusaurus/
 
 <div align="center">
-  <img src="https://w7.pngwing.com/pngs/663/653/png-transparent-docusaurus-favicon-logo-tech-companies-thumbnail.png" width="200" alt="Docusaurus Logo">
+  <img src="https://image-static.segmentfault.com/162/120/1621202152-62c4277b666ee_cover" width="200" alt="Docusaurus Logo">
 </div>
 
 ## ✨ Características Principales
