@@ -2,6 +2,10 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
+link github : https://antonygeronimo.github.io/docusaurus/
+
+link cpanel : https://901185434.senati.chat.pe/docusaurus/
+
 ### Installation
 
 ```
