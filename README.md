@@ -7,6 +7,7 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 # 🚀 Manual del Inspector - Documentación Técnica
 
 https://antonygeronimo.github.io/docusaurus/
+
 https://901185434.senati.chat.pe/docusaurus/
 
 <div align="center">
