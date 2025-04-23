@@ -6,9 +6,9 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 
 # 🚀 Manual del Inspector - Documentación Técnica
 
-https://antonygeronimo.github.io/docusaurus/
+github : https://antonygeronimo.github.io/docusaurus/
 
-https://901185434.senati.chat.pe/docusaurus/
+cpanel : https://901185434.senati.chat.pe/docusaurus/
 
 <div align="center">
   <img src="https://w7.pngwing.com/pngs/663/653/png-transparent-docusaurus-favicon-logo-tech-companies-thumbnail.png" width="200" alt="Docusaurus Logo">
