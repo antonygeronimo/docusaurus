@@ -10,20 +10,22 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Mi Manual',
+  tagline: 'Tu guía personal',
+  favicon: 'img/gero.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://antonygeronimo.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/documentacion/',
+
+  trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'antonygeronimo', // Usually your GitHub org/user name.
+  projectName: 'documentacion', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -32,8 +34,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'es',
+    locales: ['es'],
   },
 
   presets: [
@@ -46,7 +48,8 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/antonygeronimo/documentacion/edit/main/',
+          routeBasePath: '/', // Configurado para que los docs sean la página principal
         },
         blog: {
           showReadingTime: true,
@@ -57,7 +60,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/antonygeronimo/documentacion/edit/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -76,23 +79,23 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Mi Manual',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Mi Manual Logo',
+          src: 'img/gero.png',
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
+            to: '/intro',
             label: 'Tutorial',
+            position: 'left',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/antonygeronimo/documentacion',
             label: 'GitHub',
             position: 'right',
+            className: 'header-github-link',
           },
         ],
       },
@@ -104,29 +107,37 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/intro',
+              },
+              {
+                label: 'Inspector',
+                to: '/inspector/inspector-elementos',
+              },
+              {
+                label: 'Herramientas',
+                to: '/herramientas/herramienta-console',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Recursos',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'MDN Web Docs',
+                href: 'https://developer.mozilla.org/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Chrome DevTools',
+                href: 'https://developers.google.com/web/tools/chrome-devtools',
               },
               {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'Firefox Developer Tools',
+                href: 'https://firefox-source-docs.mozilla.org/devtools-user/',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Más',
             items: [
               {
                 label: 'Blog',
@@ -134,16 +145,21 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/antonygeronimo/documentacion',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Mi Manual. Creado con Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
       },
     }),
 };
