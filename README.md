@@ -6,11 +6,11 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 
 # 🚀 Manual del Inspector - Documentación Técnica
 
-[![GitHub Pages](https://img.shields.io/badge/🌐_Live_Demo-GitHub_Pages-blue?style=for-the-badge)](https://antonygeronimo.github.io/docusaurus/)
-[![CPanel Hosting](https://img.shields.io/badge/🔧_Hosted_on-CPanel-orange?style=for-the-badge)](https://901185434.senati.chat.pe/docusaurus/)
+https://antonygeronimo.github.io/docusaurus/
+https://901185434.senati.chat.pe/docusaurus/
 
 <div align="center">
-  <img src="https://docusaurus.io/img/docusaurus-keytar.svg" width="200" alt="Docusaurus Logo">
+  <img src="https://w7.pngwing.com/pngs/663/653/png-transparent-docusaurus-favicon-logo-tech-companies-thumbnail.png" width="200" alt="Docusaurus Logo">
 </div>
 
 ## ✨ Características Principales
