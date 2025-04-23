@@ -2,9 +2,30 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-link github : https://antonygeronimo.github.io/docusaurus/
 
-link cpanel : https://901185434.senati.chat.pe/docusaurus/
+
+# 🚀 Manual del Inspector - Documentación Técnica
+
+[![GitHub Pages](https://img.shields.io/badge/🌐_Live_Demo-GitHub_Pages-blue?style=for-the-badge)](https://antonygeronimo.github.io/docusaurus/)
+[![CPanel Hosting](https://img.shields.io/badge/🔧_Hosted_on-CPanel-orange?style=for-the-badge)](https://901185434.senati.chat.pe/docusaurus/)
+
+<div align="center">
+  <img src="https://docusaurus.io/img/docusaurus-keytar.svg" width="200" alt="Docusaurus Logo">
+</div>
+
+## ✨ Características Principales
+- **Documentación estructurada** con búsqueda integrada
+- **Diseño responsive** para todos los dispositivos
+- **Soporte multi-idioma** (español por defecto)
+- **Actualizaciones automáticas** via GitHub Actions
+
+## 🛠️ Instalación Local
+```bash
+# 1. Clona el repositorio
+git clone https://github.com/antonygeronimo/docusaurus.git
+
+# 2. Instala dependencias
+yarn install
 
 ### Installation
 
